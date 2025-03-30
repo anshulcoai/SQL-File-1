@@ -1,0 +1,23 @@
+
+create database newdb1;
+use newdb1;
+show tables;
+#create table table_name(column_name1data_type(size),col2data_type(size)....)
+create table student(Rno int(3), Name varchar(10),Marks int(3));
+#To show structure of the database 
+desc student;#describe student;
+#-------------------- Insert Table command -------------------------
+# To insert all column values in the table 
+#insert into table_name values(value1,value2...);
+insert into student values(1,"Rupali",66);
+insert into student values(2,"Kajal",98);
+insert into student values(3,"Sumit",56);
+
+#Syntax to insert selected column values 
+#insert into table_name(col1,col2..) values(value1,value2,..)
+insert into student(Rno,Name)values(4,"Abc");
+insert into student(Rno,Name)values(5,"Kritika");
+insert into student(Rno,Marks)values(6,"67");
+insert into student values(7,"Sumit",86);
+select * from student;
+
