@@ -1,0 +1,14 @@
+#------------------------where clause------------------------------
+#select from table_name where conditions;
+#display Kritika's
+select * from student where name="Kritika";
+#display only rollno and marks of kritika 
+select Rno,marks from student where name = "kritika";
+#display records of student's who score marks above 60
+select * from student where marks>60;
+select * from student where marks=66;
+#display record of student who don't score marks 100
+select * from student where marks!=100;
+#select Sumit's record whose rno is 7
+select * from student where name="Sumit" and rno = 7;
+SELECT * FROM STUDENT WHERE NAME = "SUMIT" OR RNO =7;
