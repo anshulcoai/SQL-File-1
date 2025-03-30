@@ -1,0 +1,8 @@
+#-----------------------Select Query----------------------
+#To show all column values;
+#select*from table_name;
+select * from student;
+#select qry to show selected column data 
+#select col1,col2,..from table_name;
+select Rno,marks from student;
+
